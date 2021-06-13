@@ -16,15 +16,14 @@
     transition-property: color, background-color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--animation-timing-function);
-}
 
-.social-list__link--white-bg:hover,
-.social-list__link--white-bg:focus,
-.social-list__link--grey-bg:hover,
-.social-list__link--grey-bg:focus {
+    &:hover,
+    &:focus {  
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    }
+
 }
 
 .social-list__link--grey-bg {
@@ -37,9 +36,17 @@
     transition-property: background-color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--animation-timing-function);
+
+&:hover,
+&:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
 }
 
-.social-list__link__icon {
+}
+
+.social-list__icon {
     width: 20px;
     height: 20px;
 }

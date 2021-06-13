@@ -32,11 +32,11 @@ img {
     transition-property: color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--animation-timing-function);
-}
 
-.link:focus,
-.link:hover {
-    color: var(--accent-color);
+    &:focus,
+    &:hover {
+        color: var(--accent-color);
+    }    
 }
 
 body {

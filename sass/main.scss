@@ -8,11 +8,16 @@
 @import "./base/container";
 
 // COMPONENTS
+@import "./components/nav-menu";
+@import "./components/contact-menu";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/social-list";
 @import "./components/heading";
 @import "./components/uppercase-text";
+@import "./components/backdrop";
+@import "./components/modal-box";
+@import "./components/modal-form";
 
 // LAYOUT
 @import "./layout/header";
@@ -22,3 +27,5 @@
 @import "./layout/team-list";
 @import "./layout/clients";
 @import "./layout/footer";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-card-set";

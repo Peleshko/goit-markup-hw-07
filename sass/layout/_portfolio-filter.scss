@@ -4,11 +4,11 @@
     justify-content: center;
 }
 
-.filter__button:not(:first-child) {
+.filter__item:not(:first-child) {
     margin-left: 8px;
 }
 
-.filter__portfolio-button {
+.filter__button {
     font-weight: 500;
     line-height: 1.63;
     background-color: #F5F4FA;

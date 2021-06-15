@@ -58,7 +58,7 @@
         <!--========================HERO======================================-->
         <section class="hero-section">
             <div class="container hero">
-                <h1 class="hero__title">
+                <h1 class="hero-section__title">
                     эффективные решения для вашего бизнеса
                 </h1>
                 <button class="button" type="button" data-modal-open>
@@ -128,7 +128,7 @@
 
         <section class="section">
              <div class="container">
-                <h2 class="heading">Чем мы занимаемся</h2>
+                <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="work">
 
                     <li class="work__item">
@@ -182,10 +182,10 @@
         
         <section class="team section">
            <div class="container">
-            <h2 class="heading">Наша команда</h2>
+            <h2 class="section__title">Наша команда</h2>
             <ul class="team-list">
                 
-                <li class="team-list__desc">
+                <li class="team-list__item">
                     <img 
                         src="./images/team_card_1.jpg" 
                         alt="Мужчина в очках и бордовой рубашке" 
@@ -231,7 +231,7 @@
                     </div>
                 </li>
 
-                <li class="team-list__desc">
+                <li class="team-list__item">
                          <img 
                             src="./images/team_card_2.jpg" 
                             alt="Блондинка в очках и черном пиджаке" 
@@ -277,7 +277,7 @@
                         </div>
                 </li>
                 
-                <li class="team-list__desc">
+                <li class="team-list__item">
                             <img src="./images/team_card_3.jpg" 
                             alt="Улыбающийся мужчина в голубой рубашке" 
                             width="270" height="260"/>
@@ -321,7 +321,7 @@
                         </div>
                 </li>
                 
-                <li class="team-list__desc">
+                <li class="team-list__item">
                             <img src="./images/team_card_4.jpg" 
                             alt="Мужчина в очках и черной футболке" 
                             width="270" height="260"/>
@@ -374,7 +374,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="heading">Постоянные клиенты</h2>
+                <h2 class="section__title">Постоянные клиенты</h2>
                 <ul class="clients">
                     <li class="clients__item">
                         <a class="clients__link" href="">
@@ -510,48 +510,48 @@
                 </svg>
             </button>
 
-            <form action="#" class="modal__form">
-                <p class="modal__form-text">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="data-form">
+                <p class="data-form__text">Оставьте свои данные, мы вам перезвоним</p>
                 
-                <label class="modal__form-label">
+                <label class="data-form__label">
                     Имя
-                 <span class="modal__form-input-wrapper">
-                    <input type="text" name="user-name" class="modal__form-input" minlength="2" required/>
-                    <svg class="modal__form-icon" height="18" width="18">
+                 <span class="data-form__input-wrapper">
+                    <input type="text" name="user-name" class="data-form__input" minlength="2" required/>
+                    <svg class="data-form__icon" height="18" width="18">
                        <use href="./images/icons.svg#icon-person-black"></use>
                    </svg>   
                  </span>   
                 </label>
 
-                <label class="modal__form-label">
+                <label class="data-form__label">
                     Телефон
-                  <span class="modal__form-input-wrapper">
-                    <input type="tel" name="user-phone" class="modal__form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="098-765-43-21"/>
-                    <svg class="modal__form-icon" height="18" width="18">
+                  <span class="data-form__input-wrapper">
+                    <input type="tel" name="user-phone" class="data-form__input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="098-765-43-21"/>
+                    <svg class="data-form__icon" height="18" width="18">
                       <use href="./images/icons.svg#icon-phone-black"></use>
                     </svg>  
                   </span>
                 </label>
 
-               <label class="modal__form-label">
+               <label class="data-form__label">
                 Почта
-                 <span class="modal__form-input-wrapper">
-                    <input type="email" name="user-email" class="modal__form-input" required/>
-                    <svg class="modal__form-icon" height="18" width="18">
+                 <span class="data-form__input-wrapper">
+                    <input type="email" name="user-email" class="data-form__input" required/>
+                    <svg class="data-form__icon" height="18" width="18">
                        <use href="./images/icons.svg#icon-email-black"></use>
                     </svg>   
                  </span>
                 </label>
 
-               <label class="modal__form-textarea">
+               <label class="data-form__textarea">
                 Комментарий
-                   <textarea name="user-comment" placeholder="Введите текст" class="modal__form-comment"></textarea>
+                   <textarea name="user-comment" placeholder="Введите текст" class="data-form__comment"></textarea>
                </label>
 
-               <p class="modal__policy">
-                <label class="modal__form-checkbox-policy">
-                    <input type="checkbox" name="user-policy" required class="modal__form-checkbox visually-hidden">
-                    <svg class="modal__checkbox-policy" heigth="15" width="16">
+               <p class="data-form__policy">
+                <label class="data-form__policy-text">
+                    <input type="checkbox" name="user-policy" required class="data-form__checkbox visually-hidden">
+                    <svg class="data-form__policy-icon" heigth="15" width="16">
                       <use href="./images/icons.svg#icon-not-checked"></use>
                    </svg>   
                  <span>Соглашаюсь с рассылкой и принимаю </span> 
@@ -559,7 +559,7 @@
                  </label>  
                </p>
 
-               <button type="submit" class="modal-button button">Отправить</button>
+               <button type="submit" class="data-form__button button">Отправить</button>
              </form>    
         </div>
     </div>

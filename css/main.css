@@ -37,27 +37,24 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.link {
+a {
   text-decoration: none;
   transition-property: color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--animation-timing-function);
 }
 
-.link:focus, .link:hover {
+a:focus, a:hover {
   color: var(--accent-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
